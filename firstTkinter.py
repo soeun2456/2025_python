@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 root=tk.Tk()
-root.title("Tkinter예제")
+root.title("Tkinter 예제입니다")
 root.geometry("200x100")
 
 
