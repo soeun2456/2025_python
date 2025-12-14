@@ -151,7 +151,7 @@ while running:
             draw_card(cards[r][c], r, c)
 
     if game_win:
-        msg = "Congratulations! Press R to Restart"
+        msg = "모든 카드를 맞추셨습니다!(R키: 재시작)"
         color = RED
     elif len(pending_cards_pos) == 1:
         msg = "Select the second card..."
